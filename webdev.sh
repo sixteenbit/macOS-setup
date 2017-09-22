@@ -30,6 +30,7 @@ npm install -g sass-lint
 brew tap homebrew/dupes
 brew tap homebrew/php
 brew install php70 --without-apache --with-fpm
+brew services start homebrew/php/php70
 
 # Install composer globally
 curl -sS https://getcomposer.org/installer | sudo php -- --install-dir=/usr/local/bin --filename=composer
