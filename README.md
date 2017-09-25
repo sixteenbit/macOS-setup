@@ -38,7 +38,7 @@ cd ~/
 
 ## Apps
 
-Homebrew.sh [handles application installs](https://github.com/sixteenbit/mac-setup/blob/master/webdev.sh#L50) for the most part, but there are a few apps I like getting from the source (or isn't available through brew).
+[brew.sh](https://brew.sh/) [handles application installs](https://github.com/sixteenbit/mac-setup/blob/master/webdev.sh#L50) for the most part, but there are a few apps I like getting from the source (or isn't available through brew).
 
 ### Development
 
