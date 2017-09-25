@@ -4,6 +4,26 @@
 cd ~; curl -#L https://github.com/sixteenbit/mac-setup/tarball/master | tar -xzv --strip-components 1 --exclude={README.md,bootstrap.sh}
 ```
 
+## Usage
+
+Everything is optional and should be tweaked to your personal needs.
+
+```bash
+cd ~/
+
+# Checks for Apple updates and Xcode Command Line Tools
+./osxprep.sh
+
+# Install specified apps and software with Homebrew.sh
+./brew.sh
+
+# macOS tweaks
+./osx.sh
+
+# Install web development specific tools
+./webdev.sh
+```
+
 ## Apps
 
 ### Development
