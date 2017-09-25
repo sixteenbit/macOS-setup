@@ -1,6 +1,6 @@
 # Mac Setup
 
-## Create macOS bootable thumbdrive
+## Create bootable macOS thumbdrive
 
 Example for High Sierra:
 
@@ -29,6 +29,9 @@ cd ~/
 # Install specified apps and software with Homebrew.sh
 ./brew.sh
 
+# Install Applications with brew.sh
+./apps.sh
+
 # macOS tweaks
 ./osx.sh
 
@@ -38,7 +41,7 @@ cd ~/
 
 ## Apps
 
-[brew.sh](https://brew.sh/) [handles application installs](https://github.com/sixteenbit/mac-setup/blob/master/webdev.sh#L50) for the most part, but there are a few apps I like getting from the source (or isn't available through brew).
+[brew.sh](https://brew.sh/) [handles application installs](https://github.com/sixteenbit/mac-setup/blob/master/apps.sh) for the most part, but there are a few apps I like getting from the source (or isn't available through brew).
 
 ### Development
 

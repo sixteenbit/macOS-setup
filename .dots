@@ -58,6 +58,14 @@ function runDots() {
         if [ $ARG == "webdev" ] || [ $ARG == "all" ]; then
             # Run the webdev.sh Script
             echo "------------------------------"
+            echo "Installing Applications"
+            echo "------------------------------"
+            echo ""
+            ./apps.sh
+        fi
+        if [ $ARG == "webdev" ] || [ $ARG == "all" ]; then
+            # Run the webdev.sh Script
+            echo "------------------------------"
             echo "Setting up web development scripts."
             echo "------------------------------"
             echo ""
