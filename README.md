@@ -12,6 +12,8 @@ https://support.apple.com/en-us/HT201372
 
 ## Bootstrap your machine
 
+Downloads all the files to your home directory.
+
 ```bash
 cd ~; curl -#L https://github.com/sixteenbit/mac-setup/tarball/master | tar -xzv --strip-components 1 --exclude={README.md,bootstrap.sh}
 ```
