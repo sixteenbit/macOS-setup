@@ -1,5 +1,15 @@
 # Mac Setup
 
+## Create macOS bootable thumbdrive
+
+```bash
+sudo /Applications/Install\ macOS\ High\ Sierra.app/Contents/Resources/createinstallmedia --volume /Volumes/MyVolume
+```
+
+https://support.apple.com/en-us/HT201372
+
+## Bootstrap your machine
+
 ```bash
 cd ~; curl -#L https://github.com/sixteenbit/mac-setup/tarball/master | tar -xzv --strip-components 1 --exclude={README.md,bootstrap.sh}
 ```
