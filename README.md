@@ -62,3 +62,35 @@ cd ~/
 * Material UI
 * EditorConfig
 * Sass Lint
+
+## Format Fusion Drive
+
+Use the diskutil command to determine which internal disks are a part of the Apple File System Fusion Drive.
+
+```bash
+diskutil list internal
+```
+
+Unmount the Apple File System Fusion Drive:
+
+```bash
+diskutil unmount force /Volumes/APFS_Fusion_Volume
+```
+Erase each of the physical disks
+
+```bash
+diskutil eraseDisk JHFS+ SSD disk0
+diskutil eraseDisk JHFS+ HDD disk1
+```
+
+Create a CoreStorage Fusion Group
+
+```bash
+diskutil cs create "Macintosh HD" disk0 disk1
+```
+
+Create a CoreStorage Fusion volume
+
+```bash
+diskutil cs createVolume "Macintosh HD" JHFS+ "Macintosh HD" 100%
+```
