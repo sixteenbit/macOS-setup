@@ -47,7 +47,8 @@ cd ~/
 
 ### Development
 
-* [Google Chrome](https://www.google.com/chrome/browser/desktop/index.html)
+* ~~[Google Chrome](https://www.google.com/chrome/browser/desktop/index.html)~~
+* [Firefox](https://www.mozilla.org/en-US/firefox/new/)
 * [Local](https://local-by-flywheel-flywheel.netdna-ssl.com/latest/mac)
 
 ### Utilities
