@@ -71,15 +71,15 @@ brew install speedtest_cli
 brew install ssh-copy-id
 
 # Install fonts
-brew cask install font-fira-code
-brew cask install font-fira-mono
-brew cask install font-fira-sans
-brew cask install font-fontawesome
-brew cask install font-hack
-brew cask install font-open-sans
+# brew cask install font-fira-code
+# brew cask install font-fira-mono
+# brew cask install font-fira-sans
+# brew cask install font-fontawesome
+# brew cask install font-hack
+# brew cask install font-open-sans
 
 # Install developer friendly quick look plugins; see https://github.com/sindresorhus/quick-look-plugins
-brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv betterzipql qlimagesize webpquicklook suspicious-package
+brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv qlimagesize webpquicklook suspicious-package
 
 # Remove outdated versions from the cellar.
 brew cleanup
