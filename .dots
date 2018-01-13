@@ -55,14 +55,23 @@ function runDots() {
             echo ""
             ./brew.sh
         fi
-        if [ $ARG == "webdev" ] || [ $ARG == "all" ]; then
-            # Run the webdev.sh Script
+        if [ $ARG == "apps" ] || [ $ARG == "all" ]; then
+            # Run the apps.sh Script
             echo "------------------------------"
             echo "Installing Applications"
             echo "------------------------------"
             echo ""
             ./apps.sh
         fi
+        if [ $ARG == "fonts" ] || [ $ARG == "all" ]; then
+			# Run the brew.sh Script
+			echo ""
+			echo "------------------------------"
+			echo "Installing Fonts"
+			echo "------------------------------"
+			echo ""
+			./fonts.sh
+		fi
         if [ $ARG == "webdev" ] || [ $ARG == "all" ]; then
             # Run the webdev.sh Script
             echo "------------------------------"

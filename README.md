@@ -34,6 +34,9 @@ cd ~/
 # Install Applications with brew.sh
 ./apps.sh
 
+# Install fonts and font tools
+./fonts.sh
+
 # macOS tweaks
 ./osx.sh
 
@@ -49,7 +52,6 @@ cd ~/
 
 * ~~[Google Chrome](https://www.google.com/chrome/browser/desktop/index.html)~~
 * [Firefox](https://www.mozilla.org/en-US/firefox/new/)
-* [Local](https://local-by-flywheel-flywheel.netdna-ssl.com/latest/mac)
 * [PhpStorm](https://www.jetbrains.com/phpstorm/download/#section=mac)
 
 ### Utilities

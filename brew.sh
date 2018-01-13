@@ -54,14 +54,6 @@ brew install homebrew/dupes/grep
 brew install homebrew/dupes/openssh
 brew install homebrew/dupes/screen
 
-# Install font tools.
-brew tap bramstein/webfonttools
-brew install sfnt2woff
-brew install sfnt2woff-zopfli
-brew install woff2
-brew install ttfautohint fontforge --with-python
-brew tap caskroom/fonts
-
 # Install other useful binaries.
 brew install git
 brew install git-lfs
@@ -69,14 +61,6 @@ brew install git-flow
 brew install git-extras
 brew install speedtest_cli
 brew install ssh-copy-id
-
-# Install fonts
-# brew cask install font-fira-code
-# brew cask install font-fira-mono
-# brew cask install font-fira-sans
-# brew cask install font-fontawesome
-# brew cask install font-hack
-# brew cask install font-open-sans
 
 # Install developer friendly quick look plugins; see https://github.com/sindresorhus/quick-look-plugins
 brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv qlimagesize webpquicklook suspicious-package

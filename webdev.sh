@@ -46,3 +46,11 @@ phpcs --config-set installed_paths ~/wpcs
 curl -O https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar
 chmod +x wp-cli.phar
 sudo mv wp-cli.phar /usr/local/bin/wp
+
+# Install webdev apps
+brew cask install atom
+brew cask install local-by-flywheel
+brew cask install sequel-pro
+brew cask install sip
+brew cask install transmit
+brew cask install tower
