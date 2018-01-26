@@ -6,6 +6,10 @@ alias .....="cd ../../../.."
 alias ~="cd ~" # `cd` is probably faster to type though
 alias -- -="cd -"
 
+# WordPress Coding Standards
+alias wpcs="phpcs --standard=WordPress-Core"
+alias wpcbf="phpcbf --standard=WordPress-Core"
+
 # Shortcuts
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
