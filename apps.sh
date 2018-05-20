@@ -14,10 +14,4 @@ brew update
 brew upgrade -y
 
 # Install applications
-brew cask install alfred
-brew cask install blue-jeans-launcher
-brew cask install droplr
-brew cask install harvest
-brew cask install slack
-brew cask install resilio-sync
-brew cask install the-unarchiver
+brew cask install atom alfred box-sync the-unarchiver sourcetree iterm2 sip sequel-pro transmit zoomus
