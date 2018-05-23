@@ -50,7 +50,7 @@ cd ~/
 
 ### Development
 
-* ~~[Google Chrome](https://www.google.com/chrome/browser/desktop/index.html)~~
+* [Google Chrome](https://www.google.com/chrome/browser/desktop/index.html)
 * [Firefox](https://www.mozilla.org/en-US/firefox/new/)
 * [PhpStorm](https://www.jetbrains.com/phpstorm/download/#section=mac)
 
@@ -97,4 +97,10 @@ Create a CoreStorage Fusion volume
 
 ```bash
 diskutil cs createVolume "Macintosh HD" JHFS+ "Macintosh HD" 100%
+```
+
+## Disable macOS Gatekeeper
+
+```bash
+sudo spctl --master-disable
 ```
