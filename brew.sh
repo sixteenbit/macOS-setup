@@ -46,13 +46,8 @@ sudo bash -c 'echo /usr/local/bin/bash >> /etc/shells'
 # Change to the new shell, prompts for password
 chsh -s /usr/local/bin/bash
 
-# Install `wget` with IRI support.
-brew install wget --with-iri
-
-# Install more recent versions of some OS X tools.
-brew install homebrew/dupes/grep
-brew install homebrew/dupes/openssh
-brew install homebrew/dupes/screen
+# Install `wget`
+brew install wget
 
 # Install other useful binaries.
 brew install git
