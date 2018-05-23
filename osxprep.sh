@@ -10,6 +10,9 @@ while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 echo "------------------------------"
 echo "Updating OSX.  If this requires a restart, run the script again."
 
+# Disable Gatekeeper
+sudo spctl --master-disable
+
 # Install all available updates
 sudo softwareupdate -ia
 
