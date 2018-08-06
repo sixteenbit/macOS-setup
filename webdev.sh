@@ -20,11 +20,14 @@ brew install node
 brew cleanup
 
 npm install -g grunt-cli
-npm install -g grunt-init
-npm install -g yo
-npm install -g bower
+npm install gulp-cli -g
+npm install gulp -D
+# npm install -g grunt-init
+# npm install -g yo
+# npm install -g bower
 npm install -g sass
 npm install -g sass-lint
+brew install yarn --without-node
 
 # Install PHP 71
 brew tap homebrew/dupes
