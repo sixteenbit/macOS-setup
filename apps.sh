@@ -14,4 +14,4 @@ brew update
 brew upgrade -y
 
 # Install applications
-brew cask install atom alfred box-sync microsoft-teams the-unarchiver sourcetree iterm2 sip sequel-pro transmit zoomus
+brew cask install atom alfred box-sync harvest microsoft-teams the-unarchiver sourcetree iterm2 sip slack sketch sequel-pro transmit zoomus
