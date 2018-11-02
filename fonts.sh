@@ -25,6 +25,9 @@ brew tap caskroom/fonts
 brew cask install font-fira-code
 brew cask install font-fira-mono
 brew cask install font-fira-sans
-brew cask install font-fontawesome
+# brew cask install font-fontawesome
 brew cask install font-hack
+brew cask install font-lato
+brew cask install font-montserrat
 brew cask install font-open-sans
+brew cask install font-source-sans-pro
