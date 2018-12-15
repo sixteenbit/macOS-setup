@@ -22,18 +22,9 @@ brew cleanup
 npm install -g grunt-cli
 npm install gulp-cli -g
 npm install gulp -D
-# npm install -g grunt-init
-# npm install -g yo
-# npm install -g bower
 npm install -g sass
 npm install -g sass-lint
 brew install yarn --without-node
-
-# Install PHP 71
-brew tap homebrew/dupes
-brew tap homebrew/php
-brew install php70 --without-apache --with-fpm
-brew services start homebrew/php/php70
 
 # Install composer globally
 curl -sS https://getcomposer.org/installer | sudo php -- --install-dir=/usr/local/bin --filename=composer
@@ -49,3 +40,6 @@ phpcs --config-set installed_paths ~/wpcs
 curl -O https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar
 chmod +x wp-cli.phar
 sudo mv wp-cli.phar /usr/local/bin/wp
+
+# Install EasyEngine
+brew install easyengine
