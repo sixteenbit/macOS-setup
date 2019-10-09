@@ -28,7 +28,7 @@ brew install moreutils
 brew install findutils
 
 # Install GNU `sed`, overwriting the built-in `sed`.
-brew install gnu-sed --with-default-names
+brew install gnu-sed
 
 # Install Bash 4.
 brew install bash
