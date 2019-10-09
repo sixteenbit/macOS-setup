@@ -11,7 +11,7 @@ fi
 brew update
 
 # Upgrade any already-installed formulae.
-brew upgrade -y
+brew upgrade
 
 # Install node.js
 brew install node
