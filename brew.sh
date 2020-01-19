@@ -19,7 +19,7 @@ fi
 brew update
 
 # Upgrade any already-installed formulae.
-brew upgrade -y
+brew upgrade
 
 # Install some other useful utilities like `sponge`.
 brew install moreutils
