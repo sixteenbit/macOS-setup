@@ -28,12 +28,6 @@ cd ~/
 # Install Applications with brew.sh
 ./apps.sh
 
-# Install fonts and font tools
-./fonts.sh
-
-# macOS tweaks
-./osx.sh
-
 # Install web development specific tools
 ./webdev.sh
 ```
