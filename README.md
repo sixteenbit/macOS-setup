@@ -2,17 +2,11 @@
 
 ## Create bootable macOS thumbdrive
 
-Example for High Sierra:
-
-```bash
-sudo /Applications/Install\ macOS\ High\ Sierra.app/Contents/Resources/createinstallmedia --volume /Volumes/MyVolume
-```
-
-https://support.apple.com/en-us/HT201372
+I like to use [macOS Patcher](http://dosdude1.com/catalina/)
 
 ## Bootstrap your machine
 
-Downloads all the files to your home directory.
+Download all the files to your home directory.
 
 ```bash
 cd ~; curl -#L https://github.com/sixteenbit/mac-setup/tarball/master | tar -xzv --strip-components 1 --exclude={README.md,bootstrap.sh}
@@ -67,6 +61,7 @@ cd ~/
 * [Sip](https://sipapp.io/updates/)
 * [Alfred](https://www.alfredapp.com/)
 * [Karabiner](https://karabiner-elements.pqrs.org/)
+* [Spotify](https://download.scdn.co/SpotifyInstaller.zip)
 
 ### Chat
 
@@ -77,6 +72,7 @@ cd ~/
 ### 3D Printing
 
 * [Prusa Slicer](https://github.com/prusa3d/PrusaSlicer/releases)
+* [Fusion 360](https://dl.appstreaming.autodesk.com/production/installers/Fusion%20360%20Client%20Downloader.dmg)
 
 ## PhpStorm Plugins
 
