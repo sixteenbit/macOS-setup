@@ -50,14 +50,33 @@ cd ~/
 
 ### Development
 
-* [Google Chrome](https://www.google.com/chrome/browser/desktop/index.html)
 * [Firefox](https://www.mozilla.org/en-US/firefox/new/)
 * [PhpStorm](https://www.jetbrains.com/phpstorm/download/#section=mac)
+* [Local](https://cdn.localwp.com/stable/latest/mac)
+* [iTerm2](https://iterm2.com/downloads.html)
+* [Atom](https://atom.io/download/mac)
+* [Transmit](https://panic.com/download/transmit/Transmit-5-Latest.zip)
+* [Adobe Creative Cloud](https://creativecloud.adobe.com/apps/all/desktop#)
+* [DevDesktop](https://dev.acquia.com/downloads)
 
 ### Utilities
 
 * [ESET Cyber Security](https://download.eset.com/com/eset/apps/home/eav/mac/latest/eset_cybersecurity_en_.dmg)
 * [1Password](https://1password.com/downloads/)
+* [Resilio Sync](https://download-cdn.resilio.com/stable/osx/Resilio-Sync.dmg)
+* [Sip](https://sipapp.io/updates/)
+* [Alfred](https://www.alfredapp.com/)
+* [Karabiner](https://karabiner-elements.pqrs.org/)
+
+### Chat
+
+* [Slack](https://slack.com/ssb/download-osx)
+* [Discord](https://discord.com/api/download?platform=osx)
+* [Zoom](https://zoom.us/download)
+
+### 3D Printing
+
+* [Prusa Slicer](https://github.com/prusa3d/PrusaSlicer/releases)
 
 ## PhpStorm Plugins
 
@@ -66,41 +85,3 @@ cd ~/
 * Material UI
 * EditorConfig
 * Sass Lint
-
-## Format Fusion Drive
-
-Use the diskutil command to determine which internal disks are a part of the Apple File System Fusion Drive.
-
-```bash
-diskutil list internal
-```
-
-Unmount the Apple File System Fusion Drive:
-
-```bash
-diskutil unmount force /Volumes/APFS_Fusion_Volume
-```
-Erase each of the physical disks
-
-```bash
-diskutil eraseDisk JHFS+ SSD disk0
-diskutil eraseDisk JHFS+ HDD disk1
-```
-
-Create a CoreStorage Fusion Group
-
-```bash
-diskutil cs create "Macintosh HD" disk0 disk1
-```
-
-Create a CoreStorage Fusion volume
-
-```bash
-diskutil cs createVolume "Macintosh HD" JHFS+ "Macintosh HD" 100%
-```
-
-## Disable macOS Gatekeeper
-
-```bash
-sudo spctl --master-disable
-```
