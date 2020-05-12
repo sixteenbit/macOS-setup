@@ -56,6 +56,7 @@ cd ~/
 * [Alfred](https://www.alfredapp.com/)
 * [Karabiner](https://karabiner-elements.pqrs.org/)
 * [Spotify](https://download.scdn.co/SpotifyInstaller.zip)
+* [Droplr](https://files.droplr.com/apps/mac-current)
 
 ### Chat
 
