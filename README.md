@@ -25,9 +25,6 @@ cd ~/
 # Install specified apps and software with Homebrew.sh
 ./brew.sh
 
-# Install Applications with brew.sh
-./apps.sh
-
 # Install web development specific tools
 ./webdev.sh
 ```
@@ -70,11 +67,3 @@ cd ~/
 
 * [Prusa Slicer](https://github.com/prusa3d/PrusaSlicer/releases)
 * [Fusion 360](https://dl.appstreaming.autodesk.com/production/installers/Fusion%20360%20Client%20Downloader.dmg)
-
-## PhpStorm Plugins
-
-* .ignore
-* BashSupport
-* Material UI
-* EditorConfig
-* Sass Lint
