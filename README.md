@@ -46,6 +46,7 @@ cd ~/
 * [Transmit](https://panic.com/download/transmit/Transmit-5-Latest.zip)
 * [Adobe Creative Cloud](https://creativecloud.adobe.com/apps/all/desktop#)
 * [DevDesktop](https://dev.acquia.com/downloads)
+* [SourceTree](https://www.sourcetreeapp.com/)
 
 ### Utilities
 
