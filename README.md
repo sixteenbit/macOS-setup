@@ -56,6 +56,7 @@ cd ~/
 * [Spotify](https://download.scdn.co/SpotifyInstaller.zip)
 * [Droplr](https://files.droplr.com/apps/mac-current)
 * [The Unarchiver](https://macpaw.com/the-unarchiver)
+* [Rectangle](https://rectangleapp.com/)
 
 ### Chat
 
