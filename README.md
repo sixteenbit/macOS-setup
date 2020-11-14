@@ -37,7 +37,6 @@ cd ~/
 
 * [Firefox](https://www.mozilla.org/en-US/firefox/new/)
 * [PhpStorm](https://www.jetbrains.com/phpstorm/download/#section=mac)
-* [Local](https://cdn.localwp.com/stable/latest/mac)
 * [iTerm2](https://iterm2.com/downloads.html)
 * [Atom](https://atom.io/download/mac)
 * [Transmit](https://panic.com/download/transmit/Transmit-5-Latest.zip)
@@ -47,8 +46,7 @@ cd ~/
 
 ### Utilities
 
-* [ESET Cyber Security](https://download.eset.com/com/eset/apps/home/eav/mac/latest/eset_cybersecurity_en_.dmg)
-* [1Password](https://1password.com/downloads/)
+* [Bitwarden](https://bitwarden.com/download/)
 * [Resilio Sync](https://download-cdn.resilio.com/stable/osx/Resilio-Sync.dmg)
 * [Sip](https://sipapp.io/updates/)
 * [Alfred](https://www.alfredapp.com/)
